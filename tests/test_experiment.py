@@ -134,3 +134,31 @@ class ExperimentTests(unittest.TestCase):
         result = subprocess.run(command + ["--budget", "-1"], capture_output=True, text=True)
         self.assertEqual(result.returncode, 2)
         self.assertIn("nonnegative", result.stderr)
+
+    def test_cli_verify_and_unknown_policy(self):
+        from budget_router.__main__ import main
+
+        with (
+            patch("sys.argv", ["budget-router", "verify", "--output", str(self.output / "eval")]),
+            contextlib.redirect_stdout(io.StringIO()) as output,
+        ):
+            self.assertEqual(main(), 0)
+            self.assertTrue(json.loads(output.getvalue())["verified"])
+        with (
+            patch(
+                "sys.argv",
+                [
+                    "budget-router",
+                    "route",
+                    "notebook",
+                    "--policy",
+                    "missing",
+                    "--policies",
+                    str(self.output / "dev/policies.json"),
+                ],
+            ),
+            contextlib.redirect_stderr(io.StringIO()),
+            self.assertRaises(SystemExit) as exc,
+        ):
+            main()
+        self.assertEqual(exc.exception.code, 2)
