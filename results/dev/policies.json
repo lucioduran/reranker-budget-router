@@ -1,0 +1,52 @@
+{
+  "policies": [
+    {
+      "name": "router-b4-p0",
+      "budget": 4,
+      "penalty": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    {
+      "name": "router-b4-p0.01",
+      "budget": 4,
+      "penalty": 0.01,
+      "low": 0.0,
+      "high": 0.0
+    },
+    {
+      "name": "router-b4-p0.04",
+      "budget": 4,
+      "penalty": 0.04,
+      "low": 0.0,
+      "high": 0.0
+    },
+    {
+      "name": "router-b12-p0",
+      "budget": 12,
+      "penalty": 0.0,
+      "low": 0.0,
+      "high": 0.0
+    },
+    {
+      "name": "router-b12-p0.01",
+      "budget": 12,
+      "penalty": 0.01,
+      "low": 0.0,
+      "high": 0.0
+    },
+    {
+      "name": "router-b12-p0.04",
+      "budget": 12,
+      "penalty": 0.04,
+      "low": 0.0,
+      "high": 0.0
+    }
+  ],
+  "development_sha256": "fbbab37f7208fffa8155c37d8fdba5ae6aa385124e2f3eba96fecd6126cbfc89",
+  "input_hashes": {
+    "data/corpus.json": "ecf0e3d23dbee38f61aad545e67d7ad3e81195e39659a4619b7035babb5938e6",
+    "data/queries.json": "615ed43bfde36855390cc746b051199c4b1fe2ff7fd2d366c8d33b55a3c7f729",
+    "config/experiment.json": "7d6a32ec6fdf642473ed9044068f0cc4b6d974acd94ca0faf2c23117428ce58f"
+  }
+}
