@@ -1,0 +1,5956 @@
+[
+  {
+    "id": "eval-garden-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "garden",
+        11.438118047336049
+      ],
+      [
+        "soil",
+        10.184566996353531
+      ],
+      [
+        "quartz",
+        2.8798943490055673
+      ],
+      [
+        "iris",
+        0.17521331205130922
+      ],
+      [
+        "junction",
+        0.17521331205130922
+      ],
+      [
+        "lantern-charge",
+        0.174193174705206
+      ],
+      [
+        "keel",
+        0.16684892565290813
+      ],
+      [
+        "iris-network",
+        0.1644040039785397
+      ],
+      [
+        "lantern",
+        0.1632082177085675
+      ],
+      [
+        "rivet",
+        0.15859410494719833
+      ],
+      [
+        "archive",
+        0.15077207289413555
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "beacon",
+        0.14634703991096604
+      ],
+      [
+        "nova",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "quartz-batch",
+        0.14492919014102798
+      ],
+      [
+        "harbor",
+        0.14353854978429298
+      ],
+      [
+        "frost",
+        0.11172105297677266
+      ],
+      [
+        "drone",
+        0.10848036977755385
+      ],
+      [
+        "orbit",
+        0.10848036977755385
+      ],
+      [
+        "export",
+        0.1069295219469925
+      ],
+      [
+        "cargo",
+        0.10542239132770698
+      ],
+      [
+        "mirror",
+        0.0
+      ],
+      [
+        "prism",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.1095941697571893,
+      "coverage": 0.625,
+      "confidence": 0.1095941697571893
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "garden",
+          "soil",
+          "quartz",
+          "iris",
+          "junction",
+          "lantern-charge",
+          "keel",
+          "iris-network",
+          "lantern",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.002992
+      },
+      "4": {
+        "logits": [
+          9.829536437988281,
+          8.905884742736816,
+          -11.418170928955078,
+          -11.429336547851562
+        ],
+        "ranking": [
+          "garden",
+          "soil",
+          "quartz",
+          "iris",
+          "junction",
+          "lantern-charge",
+          "keel",
+          "iris-network",
+          "lantern",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 32.714726
+      },
+      "12": {
+        "logits": [
+          9.829537391662598,
+          8.905885696411133,
+          -11.418170928955078,
+          -11.429336547851562,
+          -11.416326522827148,
+          -11.383506774902344,
+          -11.41354751586914,
+          -11.452909469604492,
+          -11.40498161315918,
+          -11.423681259155273,
+          -11.392634391784668,
+          -11.419623374938965
+        ],
+        "ranking": [
+          "garden",
+          "soil",
+          "lantern-charge",
+          "archive",
+          "lantern",
+          "keel",
+          "junction",
+          "quartz",
+          "rivet-calibration",
+          "rivet",
+          "iris",
+          "iris-network",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 91.463942
+      }
+    }
+  },
+  {
+    "id": "eval-garden-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "garden",
+        17.494014062806386
+      ],
+      [
+        "quartz",
+        5.655831542931209
+      ],
+      [
+        "soil",
+        5.576692305851645
+      ],
+      [
+        "iris-network",
+        2.436319570285129
+      ],
+      [
+        "quartz-batch",
+        2.1121966968047157
+      ],
+      [
+        "iris",
+        2.062671806987828
+      ],
+      [
+        "lantern-charge",
+        2.0364684566633886
+      ],
+      [
+        "junction",
+        0.17521331205130922
+      ],
+      [
+        "keel",
+        0.16684892565290813
+      ],
+      [
+        "lantern",
+        0.1632082177085675
+      ],
+      [
+        "rivet",
+        0.15859410494719833
+      ],
+      [
+        "archive",
+        0.15077207289413555
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "beacon",
+        0.14634703991096604
+      ],
+      [
+        "nova",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "harbor",
+        0.14353854978429298
+      ],
+      [
+        "frost",
+        0.11172105297677266
+      ],
+      [
+        "drone",
+        0.10848036977755385
+      ],
+      [
+        "orbit",
+        0.10848036977755385
+      ],
+      [
+        "export",
+        0.1069295219469925
+      ],
+      [
+        "cargo",
+        0.10542239132770698
+      ],
+      [
+        "mirror",
+        0.0
+      ],
+      [
+        "prism",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.67669903987582,
+      "coverage": 0.5384615384615384,
+      "confidence": 0.5384615384615384
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "garden",
+          "quartz",
+          "soil",
+          "iris-network",
+          "quartz-batch",
+          "iris",
+          "lantern-charge",
+          "junction",
+          "keel",
+          "lantern",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.002861
+      },
+      "4": {
+        "logits": [
+          7.952169895172119,
+          -10.063557624816895,
+          -5.017200469970703,
+          -11.34083080291748
+        ],
+        "ranking": [
+          "garden",
+          "soil",
+          "quartz",
+          "iris-network",
+          "quartz-batch",
+          "iris",
+          "lantern-charge",
+          "junction",
+          "keel",
+          "lantern",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 36.588289
+      },
+      "12": {
+        "logits": [
+          7.952169895172119,
+          -10.063556671142578,
+          -5.017200469970703,
+          -11.34083080291748,
+          -11.358210563659668,
+          -11.33510971069336,
+          -10.223990440368652,
+          -11.156427383422852,
+          -11.10240650177002,
+          -9.888599395751953,
+          -10.790337562561035,
+          -10.740549087524414
+        ],
+        "ranking": [
+          "garden",
+          "soil",
+          "lantern",
+          "quartz",
+          "lantern-charge",
+          "archive",
+          "rivet",
+          "keel",
+          "junction",
+          "iris",
+          "iris-network",
+          "quartz-batch",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 112.264594
+      }
+    }
+  },
+  {
+    "id": "eval-harbor-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "harbor",
+        13.54416208165798
+      ],
+      [
+        "engine",
+        4.607874690501887
+      ],
+      [
+        "frost",
+        1.4572322240095499
+      ],
+      [
+        "iris-network",
+        1.387319256929886
+      ],
+      [
+        "cargo",
+        1.3442062573711613
+      ],
+      [
+        "garden",
+        1.330658749036913
+      ],
+      [
+        "iris",
+        1.1595914836929977
+      ],
+      [
+        "mirror",
+        1.0484772642432238
+      ],
+      [
+        "orbit",
+        1.0484772642432238
+      ],
+      [
+        "lantern",
+        1.047733974440937
+      ],
+      [
+        "lantern-charge",
+        1.0214099265200096
+      ],
+      [
+        "soil",
+        1.01892149405379
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "quartz",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "rivet",
+        0.13914434698213743
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.6597888697195933,
+      "coverage": 0.625,
+      "confidence": 0.625
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "harbor",
+          "engine",
+          "frost",
+          "iris-network",
+          "cargo",
+          "garden",
+          "iris",
+          "mirror",
+          "orbit",
+          "lantern",
+          "lantern-charge",
+          "soil",
+          "drone",
+          "beacon",
+          "export",
+          "archive",
+          "keel",
+          "nova",
+          "quartz-batch",
+          "prism",
+          "quartz",
+          "junction",
+          "rivet",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.003821
+      },
+      "4": {
+        "logits": [
+          9.691278457641602,
+          5.049304485321045,
+          -11.02155590057373,
+          -11.323006629943848
+        ],
+        "ranking": [
+          "harbor",
+          "engine",
+          "frost",
+          "iris-network",
+          "cargo",
+          "garden",
+          "iris",
+          "mirror",
+          "orbit",
+          "lantern",
+          "lantern-charge",
+          "soil",
+          "drone",
+          "beacon",
+          "export",
+          "archive",
+          "keel",
+          "nova",
+          "quartz-batch",
+          "prism",
+          "quartz",
+          "junction",
+          "rivet",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 31.229541
+      },
+      "12": {
+        "logits": [
+          9.691278457641602,
+          5.049304962158203,
+          -11.02155590057373,
+          -11.323006629943848,
+          -10.970941543579102,
+          -11.106721878051758,
+          -11.357669830322266,
+          -9.4385404586792,
+          -8.870769500732422,
+          -10.29703426361084,
+          -10.645711898803711,
+          -11.19121265411377
+        ],
+        "ranking": [
+          "harbor",
+          "engine",
+          "orbit",
+          "mirror",
+          "lantern",
+          "lantern-charge",
+          "cargo",
+          "frost",
+          "garden",
+          "soil",
+          "iris-network",
+          "iris",
+          "drone",
+          "beacon",
+          "export",
+          "archive",
+          "keel",
+          "nova",
+          "quartz-batch",
+          "prism",
+          "quartz",
+          "junction",
+          "rivet",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 88.63391
+      }
+    }
+  },
+  {
+    "id": "eval-harbor-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "harbor",
+        13.040140454038927
+      ],
+      [
+        "engine",
+        6.911812035752829
+      ],
+      [
+        "quartz",
+        2.924751182162571
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "mirror",
+        0.15528894052172876
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "cargo",
+        0.15091146435171982
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "rivet",
+        0.13914434698213743
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.46995877382501416,
+      "coverage": 0.7142857142857143,
+      "confidence": 0.46995877382501416
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "harbor",
+          "engine",
+          "quartz",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001767
+      },
+      "4": {
+        "logits": [
+          8.506385803222656,
+          5.286466598510742,
+          -11.29458999633789,
+          -11.288812637329102
+        ],
+        "ranking": [
+          "harbor",
+          "engine",
+          "frost",
+          "quartz",
+          "drone",
+          "beacon",
+          "export",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 26.846404
+      },
+      "12": {
+        "logits": [
+          8.506385803222656,
+          5.286466598510742,
+          -11.294589042663574,
+          -11.288810729980469,
+          -11.326292037963867,
+          -11.278151512145996,
+          -11.393287658691406,
+          -11.377354621887207,
+          -11.325961112976074,
+          -11.262049674987793,
+          -11.386184692382812,
+          -11.274985313415527
+        ],
+        "ranking": [
+          "harbor",
+          "engine",
+          "lantern-charge",
+          "mirror",
+          "beacon",
+          "frost",
+          "quartz",
+          "lantern",
+          "drone",
+          "iris-network",
+          "archive",
+          "export",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 87.052349
+      }
+    }
+  },
+  {
+    "id": "eval-iris-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "iris-network",
+        14.524680411381574
+      ],
+      [
+        "iris",
+        12.639361554747135
+      ],
+      [
+        "frost",
+        2.5533115250029605
+      ],
+      [
+        "beacon",
+        2.4832217381683432
+      ],
+      [
+        "drone",
+        2.13281223975815
+      ],
+      [
+        "quartz-batch",
+        2.1121966968047157
+      ],
+      [
+        "lantern-charge",
+        2.0364684566633886
+      ],
+      [
+        "mirror",
+        2.024331869980596
+      ],
+      [
+        "junction",
+        0.17521331205130922
+      ],
+      [
+        "keel",
+        0.16684892565290813
+      ],
+      [
+        "garden",
+        0.1644040039785397
+      ],
+      [
+        "lantern",
+        0.1632082177085675
+      ],
+      [
+        "rivet",
+        0.15859410494719833
+      ],
+      [
+        "archive",
+        0.15077207289413555
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "nova",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "harbor",
+        0.14353854978429298
+      ],
+      [
+        "orbit",
+        0.10848036977755385
+      ],
+      [
+        "export",
+        0.1069295219469925
+      ],
+      [
+        "cargo",
+        0.10542239132770698
+      ],
+      [
+        "soil",
+        0.10542239132770698
+      ],
+      [
+        "quartz",
+        0.10395715507992469
+      ],
+      [
+        "prism",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.12980105608086903,
+      "coverage": 0.5454545454545454,
+      "confidence": 0.12980105608086903
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "iris-network",
+          "iris",
+          "frost",
+          "beacon",
+          "drone",
+          "quartz-batch",
+          "lantern-charge",
+          "mirror",
+          "junction",
+          "keel",
+          "garden",
+          "lantern",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "nova",
+          "engine",
+          "harbor",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 0.6309297535714575,
+          "mrr": 0.5
+        },
+        "inference_ms": 0.001926
+      },
+      "4": {
+        "logits": [
+          7.322504043579102,
+          7.934057235717773,
+          -11.388988494873047,
+          -11.355183601379395
+        ],
+        "ranking": [
+          "iris",
+          "iris-network",
+          "beacon",
+          "frost",
+          "drone",
+          "quartz-batch",
+          "lantern-charge",
+          "mirror",
+          "junction",
+          "keel",
+          "garden",
+          "lantern",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "nova",
+          "engine",
+          "harbor",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 41.334939
+      },
+      "12": {
+        "logits": [
+          7.322504043579102,
+          7.934057235717773,
+          -11.388988494873047,
+          -11.355183601379395,
+          -11.403718948364258,
+          -11.435961723327637,
+          -11.38909912109375,
+          -11.349196434020996,
+          -11.307306289672852,
+          -11.441774368286133,
+          -11.316682815551758,
+          -11.352814674377441
+        ],
+        "ranking": [
+          "iris",
+          "iris-network",
+          "junction",
+          "garden",
+          "mirror",
+          "lantern",
+          "beacon",
+          "frost",
+          "lantern-charge",
+          "drone",
+          "quartz-batch",
+          "keel",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "nova",
+          "engine",
+          "harbor",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 108.590624
+      }
+    }
+  },
+  {
+    "id": "eval-iris-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "iris",
+        16.936200418285193
+      ],
+      [
+        "iris-network",
+        6.755105365776661
+      ],
+      [
+        "garden",
+        3.038206753090834
+      ],
+      [
+        "prism",
+        2.2719155663065895
+      ],
+      [
+        "archive",
+        1.9690916286898348
+      ],
+      [
+        "export",
+        1.847264361867676
+      ],
+      [
+        "harbor",
+        1.8354965380966028
+      ],
+      [
+        "frost",
+        1.3531240397887951
+      ],
+      [
+        "cargo",
+        1.2987171843471486
+      ],
+      [
+        "lantern",
+        1.0074205490650583
+      ],
+      [
+        "orbit",
+        1.0016686934990489
+      ],
+      [
+        "lantern-charge",
+        0.9958778806897775
+      ],
+      [
+        "soil",
+        0.9734324210297771
+      ],
+      [
+        "mirror",
+        0.893188323721495
+      ],
+      [
+        "junction",
+        0.17521331205130922
+      ],
+      [
+        "keel",
+        0.16684892565290813
+      ],
+      [
+        "rivet",
+        0.15859410494719833
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "beacon",
+        0.14634703991096604
+      ],
+      [
+        "nova",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "quartz-batch",
+        0.14492919014102798
+      ],
+      [
+        "drone",
+        0.10848036977755385
+      ],
+      [
+        "quartz",
+        0.10395715507992469
+      ]
+    ],
+    "signals": {
+      "gap": 0.601143987497721,
+      "coverage": 0.8,
+      "confidence": 0.601143987497721
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "iris",
+          "iris-network",
+          "garden",
+          "prism",
+          "archive",
+          "export",
+          "harbor",
+          "frost",
+          "cargo",
+          "lantern",
+          "orbit",
+          "lantern-charge",
+          "soil",
+          "mirror",
+          "junction",
+          "keel",
+          "rivet",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "drone",
+          "quartz"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001809
+      },
+      "4": {
+        "logits": [
+          9.597367286682129,
+          -7.179789066314697,
+          -11.409870147705078,
+          -10.546661376953125
+        ],
+        "ranking": [
+          "iris",
+          "iris-network",
+          "prism",
+          "garden",
+          "archive",
+          "export",
+          "harbor",
+          "frost",
+          "cargo",
+          "lantern",
+          "orbit",
+          "lantern-charge",
+          "soil",
+          "mirror",
+          "junction",
+          "keel",
+          "rivet",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "drone",
+          "quartz"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 38.778813
+      },
+      "12": {
+        "logits": [
+          9.597367286682129,
+          -7.179789066314697,
+          -11.409870147705078,
+          -10.546661376953125,
+          -11.468208312988281,
+          -11.472970962524414,
+          -11.443428993225098,
+          -11.378433227539062,
+          -11.446844100952148,
+          -11.410990715026855,
+          -11.459843635559082,
+          -11.413043022155762
+        ],
+        "ranking": [
+          "iris",
+          "iris-network",
+          "prism",
+          "frost",
+          "garden",
+          "lantern",
+          "lantern-charge",
+          "harbor",
+          "cargo",
+          "orbit",
+          "archive",
+          "export",
+          "soil",
+          "mirror",
+          "junction",
+          "keel",
+          "rivet",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "drone",
+          "quartz"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 90.563675
+      }
+    }
+  },
+  {
+    "id": "eval-junction-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "junction",
+        9.337631080999003
+      ],
+      [
+        "lantern-charge",
+        3.6607021398038926
+      ],
+      [
+        "frost",
+        1.3531240397887951
+      ],
+      [
+        "garden",
+        1.3462487647785242
+      ],
+      [
+        "iris-network",
+        1.3462487647785242
+      ],
+      [
+        "iris",
+        1.334804795744307
+      ],
+      [
+        "cargo",
+        1.2987171843471486
+      ],
+      [
+        "lantern",
+        1.0074205490650583
+      ],
+      [
+        "orbit",
+        1.0016686934990489
+      ],
+      [
+        "soil",
+        0.9734324210297771
+      ],
+      [
+        "mirror",
+        0.893188323721495
+      ],
+      [
+        "keel",
+        0.16684892565290813
+      ],
+      [
+        "rivet",
+        0.15859410494719833
+      ],
+      [
+        "archive",
+        0.15077207289413555
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "beacon",
+        0.14634703991096604
+      ],
+      [
+        "nova",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "quartz-batch",
+        0.14492919014102798
+      ],
+      [
+        "harbor",
+        0.14353854978429298
+      ],
+      [
+        "drone",
+        0.10848036977755385
+      ],
+      [
+        "export",
+        0.1069295219469925
+      ],
+      [
+        "quartz",
+        0.10395715507992469
+      ],
+      [
+        "prism",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.6079624362914704,
+      "coverage": 0.4444444444444444,
+      "confidence": 0.4444444444444444
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "junction",
+          "lantern-charge",
+          "frost",
+          "garden",
+          "iris-network",
+          "iris",
+          "cargo",
+          "lantern",
+          "orbit",
+          "soil",
+          "mirror",
+          "keel",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "drone",
+          "export",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001621
+      },
+      "4": {
+        "logits": [
+          6.33122444152832,
+          -10.568521499633789,
+          -11.287206649780273,
+          -11.336028099060059
+        ],
+        "ranking": [
+          "junction",
+          "lantern-charge",
+          "frost",
+          "garden",
+          "iris-network",
+          "iris",
+          "cargo",
+          "lantern",
+          "orbit",
+          "soil",
+          "mirror",
+          "keel",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "drone",
+          "export",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 35.423527
+      },
+      "12": {
+        "logits": [
+          6.33122444152832,
+          -10.568521499633789,
+          -11.287206649780273,
+          -11.336028099060059,
+          -11.451650619506836,
+          -11.436971664428711,
+          -10.63071346282959,
+          -10.962664604187012,
+          -10.813403129577637,
+          -11.352925300598145,
+          -10.614968299865723,
+          -11.220610618591309
+        ],
+        "ranking": [
+          "junction",
+          "lantern-charge",
+          "mirror",
+          "cargo",
+          "orbit",
+          "lantern",
+          "keel",
+          "frost",
+          "garden",
+          "soil",
+          "iris",
+          "iris-network",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "drone",
+          "export",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 103.446018
+      }
+    }
+  },
+  {
+    "id": "eval-junction-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "junction",
+        15.986859343801026
+      ],
+      [
+        "beacon",
+        1.5766288123286714
+      ],
+      [
+        "export",
+        1.5766288123286714
+      ],
+      [
+        "orbit",
+        1.5422510917283352
+      ],
+      [
+        "soil",
+        1.4987762159288807
+      ],
+      [
+        "engine",
+        1.347864751577161
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "mirror",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "cargo",
+        0.15091146435171982
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "quartz",
+        0.14881398823692854
+      ],
+      [
+        "rivet",
+        0.13914434698213743
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.9013797032661067,
+      "coverage": 0.6,
+      "confidence": 0.6
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "junction",
+          "beacon",
+          "export",
+          "orbit",
+          "soil",
+          "engine",
+          "frost",
+          "drone",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "garden",
+          "prism",
+          "quartz",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001614
+      },
+      "4": {
+        "logits": [
+          8.817267417907715,
+          -11.398323059082031,
+          -11.459901809692383,
+          -11.405369758605957
+        ],
+        "ranking": [
+          "junction",
+          "beacon",
+          "orbit",
+          "export",
+          "soil",
+          "engine",
+          "frost",
+          "drone",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "garden",
+          "prism",
+          "quartz",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 38.783884
+      },
+      "12": {
+        "logits": [
+          8.817267417907715,
+          -11.398323059082031,
+          -11.459901809692383,
+          -11.405369758605957,
+          -11.39989185333252,
+          -11.405868530273438,
+          -11.431496620178223,
+          -11.44167423248291,
+          -11.441703796386719,
+          -11.483541488647461,
+          -11.41031551361084,
+          -11.399264335632324
+        ],
+        "ranking": [
+          "junction",
+          "beacon",
+          "lantern-charge",
+          "soil",
+          "orbit",
+          "engine",
+          "lantern",
+          "frost",
+          "drone",
+          "harbor",
+          "export",
+          "iris-network",
+          "archive",
+          "mirror",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "garden",
+          "prism",
+          "quartz",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 88.20814
+      }
+    }
+  },
+  {
+    "id": "eval-keel-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "keel",
+        9.618476618985069
+      ],
+      [
+        "rivet-calibration",
+        2.0848056524182987
+      ],
+      [
+        "engine",
+        1.9672675066636878
+      ],
+      [
+        "prism",
+        1.9399250073753953
+      ],
+      [
+        "archive",
+        0.0
+      ],
+      [
+        "beacon",
+        0.0
+      ],
+      [
+        "cargo",
+        0.0
+      ],
+      [
+        "drone",
+        0.0
+      ],
+      [
+        "export",
+        0.0
+      ],
+      [
+        "frost",
+        0.0
+      ],
+      [
+        "garden",
+        0.0
+      ],
+      [
+        "harbor",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "iris-network",
+        0.0
+      ],
+      [
+        "junction",
+        0.0
+      ],
+      [
+        "lantern",
+        0.0
+      ],
+      [
+        "lantern-charge",
+        0.0
+      ],
+      [
+        "mirror",
+        0.0
+      ],
+      [
+        "nova",
+        0.0
+      ],
+      [
+        "orbit",
+        0.0
+      ],
+      [
+        "quartz",
+        0.0
+      ],
+      [
+        "quartz-batch",
+        0.0
+      ],
+      [
+        "rivet",
+        0.0
+      ],
+      [
+        "soil",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.7832499121219172,
+      "coverage": 0.42857142857142855,
+      "confidence": 0.42857142857142855
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "keel",
+          "rivet-calibration",
+          "engine",
+          "prism",
+          "archive",
+          "beacon",
+          "cargo",
+          "drone",
+          "export",
+          "frost",
+          "garden",
+          "harbor",
+          "iris",
+          "iris-network",
+          "junction",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001957
+      },
+      "4": {
+        "logits": [
+          8.503390312194824,
+          -7.309561252593994,
+          -10.551677703857422,
+          -11.386517524719238
+        ],
+        "ranking": [
+          "keel",
+          "rivet-calibration",
+          "engine",
+          "prism",
+          "archive",
+          "beacon",
+          "cargo",
+          "drone",
+          "export",
+          "frost",
+          "garden",
+          "harbor",
+          "iris",
+          "iris-network",
+          "junction",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 32.851693
+      },
+      "12": {
+        "logits": [
+          8.503390312194824,
+          -7.309561252593994,
+          -10.551677703857422,
+          -11.386517524719238,
+          -10.565544128417969,
+          -10.63076400756836,
+          -11.392157554626465,
+          -11.005291938781738,
+          -11.023717880249023,
+          -10.225462913513184,
+          -11.327591896057129,
+          -10.9865083694458
+        ],
+        "ranking": [
+          "keel",
+          "rivet-calibration",
+          "frost",
+          "engine",
+          "archive",
+          "beacon",
+          "harbor",
+          "drone",
+          "export",
+          "garden",
+          "prism",
+          "cargo",
+          "iris",
+          "iris-network",
+          "junction",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 90.22221
+      }
+    }
+  },
+  {
+    "id": "eval-keel-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "keel",
+        10.67103095374251
+      ],
+      [
+        "rivet-calibration",
+        2.0848056524182987
+      ],
+      [
+        "engine",
+        1.9672675066636878
+      ],
+      [
+        "prism",
+        1.9399250073753953
+      ],
+      [
+        "archive",
+        0.0
+      ],
+      [
+        "beacon",
+        0.0
+      ],
+      [
+        "cargo",
+        0.0
+      ],
+      [
+        "drone",
+        0.0
+      ],
+      [
+        "export",
+        0.0
+      ],
+      [
+        "frost",
+        0.0
+      ],
+      [
+        "garden",
+        0.0
+      ],
+      [
+        "harbor",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "iris-network",
+        0.0
+      ],
+      [
+        "junction",
+        0.0
+      ],
+      [
+        "lantern",
+        0.0
+      ],
+      [
+        "lantern-charge",
+        0.0
+      ],
+      [
+        "mirror",
+        0.0
+      ],
+      [
+        "nova",
+        0.0
+      ],
+      [
+        "orbit",
+        0.0
+      ],
+      [
+        "quartz",
+        0.0
+      ],
+      [
+        "quartz-batch",
+        0.0
+      ],
+      [
+        "rivet",
+        0.0
+      ],
+      [
+        "soil",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.8046294063379957,
+      "coverage": 0.42857142857142855,
+      "confidence": 0.42857142857142855
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "keel",
+          "rivet-calibration",
+          "engine",
+          "prism",
+          "archive",
+          "beacon",
+          "cargo",
+          "drone",
+          "export",
+          "frost",
+          "garden",
+          "harbor",
+          "iris",
+          "iris-network",
+          "junction",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001756
+      },
+      "4": {
+        "logits": [
+          7.379083633422852,
+          -11.161659240722656,
+          -11.338848114013672,
+          -11.390254974365234
+        ],
+        "ranking": [
+          "keel",
+          "rivet-calibration",
+          "engine",
+          "prism",
+          "archive",
+          "beacon",
+          "cargo",
+          "drone",
+          "export",
+          "frost",
+          "garden",
+          "harbor",
+          "iris",
+          "iris-network",
+          "junction",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 40.419463
+      },
+      "12": {
+        "logits": [
+          7.379083633422852,
+          -11.161659240722656,
+          -11.338848114013672,
+          -11.390254974365234,
+          -10.53793716430664,
+          -11.310693740844727,
+          -11.470420837402344,
+          -11.427215576171875,
+          -11.357369422912598,
+          -11.317784309387207,
+          -11.438980102539062,
+          -11.386247634887695
+        ],
+        "ranking": [
+          "keel",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "frost",
+          "engine",
+          "export",
+          "harbor",
+          "prism",
+          "drone",
+          "garden",
+          "cargo",
+          "iris",
+          "iris-network",
+          "junction",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 94.263221
+      }
+    }
+  },
+  {
+    "id": "eval-lantern-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "lantern",
+        16.357152846844144
+      ],
+      [
+        "iris-network",
+        3.659234823236475
+      ],
+      [
+        "frost",
+        1.4572322240095499
+      ],
+      [
+        "cargo",
+        1.3442062573711613
+      ],
+      [
+        "garden",
+        1.330658749036913
+      ],
+      [
+        "iris",
+        1.1595914836929977
+      ],
+      [
+        "mirror",
+        1.0484772642432238
+      ],
+      [
+        "orbit",
+        1.0484772642432238
+      ],
+      [
+        "lantern-charge",
+        1.0214099265200096
+      ],
+      [
+        "soil",
+        1.01892149405379
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "quartz",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "rivet",
+        0.13914434698213743
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.7762914574743693,
+      "coverage": 0.7777777777777778,
+      "confidence": 0.7762914574743693
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "lantern",
+          "iris-network",
+          "frost",
+          "cargo",
+          "garden",
+          "iris",
+          "mirror",
+          "orbit",
+          "lantern-charge",
+          "soil",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "archive",
+          "keel",
+          "nova",
+          "quartz-batch",
+          "prism",
+          "quartz",
+          "junction",
+          "rivet",
+          "engine",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001922
+      },
+      "4": {
+        "logits": [
+          8.077771186828613,
+          -10.966012954711914,
+          -11.201990127563477,
+          -11.393867492675781
+        ],
+        "ranking": [
+          "lantern",
+          "iris-network",
+          "frost",
+          "cargo",
+          "garden",
+          "iris",
+          "mirror",
+          "orbit",
+          "lantern-charge",
+          "soil",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "archive",
+          "keel",
+          "nova",
+          "quartz-batch",
+          "prism",
+          "quartz",
+          "junction",
+          "rivet",
+          "engine",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 36.616837
+      },
+      "12": {
+        "logits": [
+          8.077771186828613,
+          -10.966012954711914,
+          -11.201990127563477,
+          -11.393867492675781,
+          -11.288263320922852,
+          -11.190375328063965,
+          -11.290112495422363,
+          -11.279410362243652,
+          -10.673552513122559,
+          -11.278423309326172,
+          -11.345672607421875,
+          -11.221471786499023
+        ],
+        "ranking": [
+          "lantern",
+          "lantern-charge",
+          "iris-network",
+          "iris",
+          "frost",
+          "beacon",
+          "soil",
+          "orbit",
+          "garden",
+          "mirror",
+          "drone",
+          "cargo",
+          "export",
+          "harbor",
+          "archive",
+          "keel",
+          "nova",
+          "quartz-batch",
+          "prism",
+          "quartz",
+          "junction",
+          "rivet",
+          "engine",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 98.204343
+      }
+    }
+  },
+  {
+    "id": "eval-lantern-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "lantern-charge",
+        8.920004895418469
+      ],
+      [
+        "lantern",
+        8.618234305197918
+      ],
+      [
+        "iris",
+        0.17521331205130922
+      ],
+      [
+        "junction",
+        0.17521331205130922
+      ],
+      [
+        "keel",
+        0.16684892565290813
+      ],
+      [
+        "garden",
+        0.1644040039785397
+      ],
+      [
+        "iris-network",
+        0.1644040039785397
+      ],
+      [
+        "rivet",
+        0.15859410494719833
+      ],
+      [
+        "archive",
+        0.15077207289413555
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "beacon",
+        0.14634703991096604
+      ],
+      [
+        "nova",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "quartz-batch",
+        0.14492919014102798
+      ],
+      [
+        "harbor",
+        0.14353854978429298
+      ],
+      [
+        "frost",
+        0.11172105297677266
+      ],
+      [
+        "drone",
+        0.10848036977755385
+      ],
+      [
+        "orbit",
+        0.10848036977755385
+      ],
+      [
+        "export",
+        0.1069295219469925
+      ],
+      [
+        "cargo",
+        0.10542239132770698
+      ],
+      [
+        "soil",
+        0.10542239132770698
+      ],
+      [
+        "quartz",
+        0.10395715507992469
+      ],
+      [
+        "mirror",
+        0.0
+      ],
+      [
+        "prism",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.03383076509022408,
+      "coverage": 0.5,
+      "confidence": 0.03383076509022408
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "lantern-charge",
+          "lantern",
+          "iris",
+          "junction",
+          "keel",
+          "garden",
+          "iris-network",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 0.6309297535714575,
+          "mrr": 0.5
+        },
+        "inference_ms": 0.001739
+      },
+      "4": {
+        "logits": [
+          7.703226089477539,
+          7.691359043121338,
+          -11.438968658447266,
+          -10.154081344604492
+        ],
+        "ranking": [
+          "lantern-charge",
+          "lantern",
+          "junction",
+          "iris",
+          "keel",
+          "garden",
+          "iris-network",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 0.6309297535714575,
+          "mrr": 0.5
+        },
+        "inference_ms": 44.03435
+      },
+      "12": {
+        "logits": [
+          7.703226089477539,
+          7.691359043121338,
+          -11.438968658447266,
+          -10.154081344604492,
+          -11.016915321350098,
+          -10.71131420135498,
+          -11.458416938781738,
+          -11.044757843017578,
+          -11.049427032470703,
+          -11.024188995361328,
+          -10.528362274169922,
+          -10.827560424804688
+        ],
+        "ranking": [
+          "lantern-charge",
+          "lantern",
+          "junction",
+          "beacon",
+          "garden",
+          "nova",
+          "keel",
+          "rivet-calibration",
+          "rivet",
+          "archive",
+          "iris",
+          "iris-network",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "mirror",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 0.6309297535714575,
+          "mrr": 0.5
+        },
+        "inference_ms": 97.512
+      }
+    }
+  },
+  {
+    "id": "eval-mirror-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "mirror",
+        13.841668031284442
+      ],
+      [
+        "nova",
+        5.561128434719956
+      ],
+      [
+        "prism",
+        4.968633344617891
+      ],
+      [
+        "rivet",
+        4.645781289254956
+      ],
+      [
+        "cargo",
+        1.8667169518793938
+      ],
+      [
+        "harbor",
+        1.3934108568231585
+      ],
+      [
+        "lantern",
+        1.375173542655044
+      ],
+      [
+        "lantern-charge",
+        1.340111839939596
+      ],
+      [
+        "junction",
+        1.3005970808692173
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "quartz",
+        0.14881398823692854
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.5982327836391617,
+      "coverage": 0.45454545454545453,
+      "confidence": 0.45454545454545453
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "mirror",
+          "nova",
+          "prism",
+          "rivet",
+          "cargo",
+          "harbor",
+          "lantern",
+          "lantern-charge",
+          "junction",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "iris-network",
+          "archive",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "quartz",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001815
+      },
+      "4": {
+        "logits": [
+          7.31332540512085,
+          -11.464130401611328,
+          -11.357179641723633,
+          -11.377193450927734
+        ],
+        "ranking": [
+          "mirror",
+          "prism",
+          "rivet",
+          "nova",
+          "cargo",
+          "harbor",
+          "lantern",
+          "lantern-charge",
+          "junction",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "iris-network",
+          "archive",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "quartz",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 40.073397
+      },
+      "12": {
+        "logits": [
+          7.31332540512085,
+          -11.464130401611328,
+          -11.357179641723633,
+          -11.377193450927734,
+          -11.460406303405762,
+          -11.458881378173828,
+          -11.47458267211914,
+          -11.455571174621582,
+          -11.463949203491211,
+          -11.457032203674316,
+          -11.473447799682617,
+          -11.469704627990723
+        ],
+        "ranking": [
+          "mirror",
+          "prism",
+          "rivet",
+          "lantern-charge",
+          "frost",
+          "harbor",
+          "cargo",
+          "junction",
+          "nova",
+          "beacon",
+          "drone",
+          "lantern",
+          "export",
+          "iris-network",
+          "archive",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "quartz",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 104.626547
+      }
+    }
+  },
+  {
+    "id": "eval-mirror-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "mirror",
+        19.10915475301741
+      ],
+      [
+        "quartz",
+        3.2857550229284755
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "cargo",
+        0.15091146435171982
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "rivet",
+        0.13914434698213743
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.8280533563416957,
+      "coverage": 0.875,
+      "confidence": 0.8280533563416957
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "mirror",
+          "quartz",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001727
+      },
+      "4": {
+        "logits": [
+          8.968134880065918,
+          -9.22532844543457,
+          -11.435161590576172,
+          -11.465716361999512
+        ],
+        "ranking": [
+          "mirror",
+          "quartz",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 36.612254
+      },
+      "12": {
+        "logits": [
+          8.968134880065918,
+          -9.22532844543457,
+          -11.435161590576172,
+          -11.465716361999512,
+          -11.459169387817383,
+          -11.448808670043945,
+          -11.410764694213867,
+          -11.483901977539062,
+          -11.453641891479492,
+          -11.447628021240234,
+          -11.434931755065918,
+          -11.456716537475586
+        ],
+        "ranking": [
+          "mirror",
+          "quartz",
+          "harbor",
+          "archive",
+          "frost",
+          "lantern-charge",
+          "export",
+          "lantern",
+          "orbit",
+          "beacon",
+          "drone",
+          "iris-network",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 93.440292
+      }
+    }
+  },
+  {
+    "id": "eval-nova-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "nova",
+        11.723585288499953
+      ],
+      [
+        "archive",
+        0.0
+      ],
+      [
+        "beacon",
+        0.0
+      ],
+      [
+        "cargo",
+        0.0
+      ],
+      [
+        "drone",
+        0.0
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "export",
+        0.0
+      ],
+      [
+        "frost",
+        0.0
+      ],
+      [
+        "garden",
+        0.0
+      ],
+      [
+        "harbor",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "iris-network",
+        0.0
+      ],
+      [
+        "junction",
+        0.0
+      ],
+      [
+        "keel",
+        0.0
+      ],
+      [
+        "lantern",
+        0.0
+      ],
+      [
+        "lantern-charge",
+        0.0
+      ],
+      [
+        "mirror",
+        0.0
+      ],
+      [
+        "orbit",
+        0.0
+      ],
+      [
+        "prism",
+        0.0
+      ],
+      [
+        "quartz",
+        0.0
+      ],
+      [
+        "quartz-batch",
+        0.0
+      ],
+      [
+        "rivet",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ],
+      [
+        "soil",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 1.0,
+      "coverage": 0.6,
+      "confidence": 0.6
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "nova",
+          "archive",
+          "beacon",
+          "cargo",
+          "drone",
+          "engine",
+          "export",
+          "frost",
+          "garden",
+          "harbor",
+          "iris",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "orbit",
+          "prism",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "rivet-calibration",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001706
+      },
+      "4": {
+        "logits": [
+          5.650144577026367,
+          -11.470599174499512,
+          -11.343706130981445,
+          -11.446039199829102
+        ],
+        "ranking": [
+          "nova",
+          "beacon",
+          "cargo",
+          "archive",
+          "drone",
+          "engine",
+          "export",
+          "frost",
+          "garden",
+          "harbor",
+          "iris",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "orbit",
+          "prism",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "rivet-calibration",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 27.030127
+      },
+      "12": {
+        "logits": [
+          5.650143623352051,
+          -11.470599174499512,
+          -11.343707084655762,
+          -11.446039199829102,
+          -11.457576751708984,
+          -11.356437683105469,
+          -11.46668815612793,
+          -11.40383529663086,
+          -11.37934398651123,
+          -11.419157981872559,
+          -11.388242721557617,
+          -11.457596778869629
+        ],
+        "ranking": [
+          "nova",
+          "beacon",
+          "engine",
+          "garden",
+          "iris",
+          "frost",
+          "harbor",
+          "cargo",
+          "drone",
+          "iris-network",
+          "export",
+          "archive",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "orbit",
+          "prism",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "rivet-calibration",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 88.907894
+      }
+    }
+  },
+  {
+    "id": "eval-nova-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "nova",
+        18.467688257456942
+      ],
+      [
+        "prism",
+        3.780696983924634
+      ],
+      [
+        "rivet",
+        3.5350347047212995
+      ],
+      [
+        "cargo",
+        1.8667169518793938
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "mirror",
+        0.15528894052172876
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "quartz",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.7952804416439045,
+      "coverage": 0.7777777777777778,
+      "confidence": 0.7777777777777778
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "nova",
+          "prism",
+          "rivet",
+          "cargo",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "quartz",
+          "junction",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.00225
+      },
+      "4": {
+        "logits": [
+          8.619958877563477,
+          -11.372095108032227,
+          -10.647622108459473,
+          -10.998038291931152
+        ],
+        "ranking": [
+          "nova",
+          "rivet",
+          "cargo",
+          "prism",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "quartz",
+          "junction",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 39.665196
+      },
+      "12": {
+        "logits": [
+          8.619958877563477,
+          -11.372095108032227,
+          -10.647622108459473,
+          -10.998038291931152,
+          -10.915349960327148,
+          -11.330671310424805,
+          -10.63299560546875,
+          -11.234281539916992,
+          -11.126276969909668,
+          -11.4449462890625,
+          -11.010820388793945,
+          -11.30985164642334
+        ],
+        "ranking": [
+          "nova",
+          "beacon",
+          "rivet",
+          "frost",
+          "cargo",
+          "lantern",
+          "harbor",
+          "export",
+          "lantern-charge",
+          "drone",
+          "prism",
+          "iris-network",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "quartz",
+          "junction",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 101.67578
+      }
+    }
+  },
+  {
+    "id": "eval-orbit-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "orbit",
+        8.435164483301172
+      ],
+      [
+        "cargo",
+        2.815062964489292
+      ],
+      [
+        "quartz",
+        2.7759371939256425
+      ],
+      [
+        "mirror",
+        2.3707674622957566
+      ],
+      [
+        "harbor",
+        2.2719155663065895
+      ],
+      [
+        "archive",
+        0.0
+      ],
+      [
+        "beacon",
+        0.0
+      ],
+      [
+        "drone",
+        0.0
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "export",
+        0.0
+      ],
+      [
+        "frost",
+        0.0
+      ],
+      [
+        "garden",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "iris-network",
+        0.0
+      ],
+      [
+        "junction",
+        0.0
+      ],
+      [
+        "keel",
+        0.0
+      ],
+      [
+        "lantern",
+        0.0
+      ],
+      [
+        "lantern-charge",
+        0.0
+      ],
+      [
+        "nova",
+        0.0
+      ],
+      [
+        "prism",
+        0.0
+      ],
+      [
+        "quartz-batch",
+        0.0
+      ],
+      [
+        "rivet",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ],
+      [
+        "soil",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.6662705309348521,
+      "coverage": 0.2,
+      "confidence": 0.2
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "orbit",
+          "cargo",
+          "quartz",
+          "mirror",
+          "harbor",
+          "archive",
+          "beacon",
+          "drone",
+          "engine",
+          "export",
+          "frost",
+          "garden",
+          "iris",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "nova",
+          "prism",
+          "quartz-batch",
+          "rivet",
+          "rivet-calibration",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.002353
+      },
+      "4": {
+        "logits": [
+          7.4112772941589355,
+          -11.332706451416016,
+          -10.062492370605469,
+          -10.203400611877441
+        ],
+        "ranking": [
+          "orbit",
+          "quartz",
+          "mirror",
+          "cargo",
+          "harbor",
+          "archive",
+          "beacon",
+          "drone",
+          "engine",
+          "export",
+          "frost",
+          "garden",
+          "iris",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "nova",
+          "prism",
+          "quartz-batch",
+          "rivet",
+          "rivet-calibration",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 39.479852
+      },
+      "12": {
+        "logits": [
+          7.4112772941589355,
+          -11.332706451416016,
+          -10.062492370605469,
+          -10.203400611877441,
+          -9.598102569580078,
+          -10.79186725616455,
+          -11.121228218078613,
+          -10.526987075805664,
+          -6.598150730133057,
+          -7.125789642333984,
+          -10.53573989868164,
+          -11.27670669555664
+        ],
+        "ranking": [
+          "orbit",
+          "engine",
+          "export",
+          "harbor",
+          "quartz",
+          "mirror",
+          "drone",
+          "frost",
+          "archive",
+          "beacon",
+          "garden",
+          "cargo",
+          "iris",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "nova",
+          "prism",
+          "quartz-batch",
+          "rivet",
+          "rivet-calibration",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 95.799752
+      }
+    }
+  },
+  {
+    "id": "eval-orbit-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "orbit",
+        13.685105328499004
+      ],
+      [
+        "lantern-charge",
+        4.0240718278823495
+      ],
+      [
+        "iris",
+        3.0470499786295164
+      ],
+      [
+        "rivet-calibration",
+        2.983254265320407
+      ],
+      [
+        "lantern",
+        2.2193858740115346
+      ],
+      [
+        "quartz-batch",
+        2.1181789710154075
+      ],
+      [
+        "nova",
+        1.8254018058244215
+      ],
+      [
+        "frost",
+        1.4572322240095499
+      ],
+      [
+        "harbor",
+        1.3934108568231585
+      ],
+      [
+        "iris-network",
+        1.387319256929886
+      ],
+      [
+        "cargo",
+        1.3442062573711613
+      ],
+      [
+        "prism",
+        1.3367503489301855
+      ],
+      [
+        "garden",
+        1.330658749036913
+      ],
+      [
+        "junction",
+        1.3005970808692173
+      ],
+      [
+        "rivet",
+        1.249890931515794
+      ],
+      [
+        "mirror",
+        1.0484772642432238
+      ],
+      [
+        "soil",
+        1.01892149405379
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "quartz",
+        0.14881398823692854
+      ],
+      [
+        "engine",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.7059524401684883,
+      "coverage": 0.5454545454545454,
+      "confidence": 0.5454545454545454
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "orbit",
+          "lantern-charge",
+          "iris",
+          "rivet-calibration",
+          "lantern",
+          "quartz-batch",
+          "nova",
+          "frost",
+          "harbor",
+          "iris-network",
+          "cargo",
+          "prism",
+          "garden",
+          "junction",
+          "rivet",
+          "mirror",
+          "soil",
+          "drone",
+          "beacon",
+          "export",
+          "archive",
+          "keel",
+          "quartz",
+          "engine"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001818
+      },
+      "4": {
+        "logits": [
+          6.3033576011657715,
+          -11.41659164428711,
+          -11.214947700500488,
+          -11.41208267211914
+        ],
+        "ranking": [
+          "orbit",
+          "iris",
+          "rivet-calibration",
+          "lantern-charge",
+          "lantern",
+          "quartz-batch",
+          "nova",
+          "frost",
+          "harbor",
+          "iris-network",
+          "cargo",
+          "prism",
+          "garden",
+          "junction",
+          "rivet",
+          "mirror",
+          "soil",
+          "drone",
+          "beacon",
+          "export",
+          "archive",
+          "keel",
+          "quartz",
+          "engine"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 37.232942
+      },
+      "12": {
+        "logits": [
+          6.3033576011657715,
+          -11.41659164428711,
+          -11.214947700500488,
+          -11.41208267211914,
+          -11.312108039855957,
+          -11.461721420288086,
+          -11.430337905883789,
+          -11.417841911315918,
+          -11.446528434753418,
+          -11.4389066696167,
+          -11.460297584533691,
+          -11.443344116210938
+        ],
+        "ranking": [
+          "orbit",
+          "iris",
+          "lantern",
+          "rivet-calibration",
+          "lantern-charge",
+          "frost",
+          "nova",
+          "iris-network",
+          "prism",
+          "harbor",
+          "cargo",
+          "quartz-batch",
+          "garden",
+          "junction",
+          "rivet",
+          "mirror",
+          "soil",
+          "drone",
+          "beacon",
+          "export",
+          "archive",
+          "keel",
+          "quartz",
+          "engine"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 96.492927
+      }
+    }
+  },
+  {
+    "id": "eval-prism-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "prism",
+        16.147472876814025
+      ],
+      [
+        "rivet-calibration",
+        3.6903401695433233
+      ],
+      [
+        "engine",
+        3.482284449707406
+      ],
+      [
+        "iris",
+        2.2104701568879173
+      ],
+      [
+        "drone",
+        1.5589629122503847
+      ],
+      [
+        "harbor",
+        1.493960147490186
+      ],
+      [
+        "archive",
+        0.0
+      ],
+      [
+        "beacon",
+        0.0
+      ],
+      [
+        "cargo",
+        0.0
+      ],
+      [
+        "export",
+        0.0
+      ],
+      [
+        "frost",
+        0.0
+      ],
+      [
+        "garden",
+        0.0
+      ],
+      [
+        "iris-network",
+        0.0
+      ],
+      [
+        "junction",
+        0.0
+      ],
+      [
+        "keel",
+        0.0
+      ],
+      [
+        "lantern",
+        0.0
+      ],
+      [
+        "lantern-charge",
+        0.0
+      ],
+      [
+        "mirror",
+        0.0
+      ],
+      [
+        "nova",
+        0.0
+      ],
+      [
+        "orbit",
+        0.0
+      ],
+      [
+        "quartz",
+        0.0
+      ],
+      [
+        "quartz-batch",
+        0.0
+      ],
+      [
+        "rivet",
+        0.0
+      ],
+      [
+        "soil",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.771460203234511,
+      "coverage": 0.75,
+      "confidence": 0.75
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "prism",
+          "rivet-calibration",
+          "engine",
+          "iris",
+          "drone",
+          "harbor",
+          "archive",
+          "beacon",
+          "cargo",
+          "export",
+          "frost",
+          "garden",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001734
+      },
+      "4": {
+        "logits": [
+          10.058465003967285,
+          -11.35808277130127,
+          -11.395358085632324,
+          -11.298918724060059
+        ],
+        "ranking": [
+          "prism",
+          "iris",
+          "rivet-calibration",
+          "engine",
+          "drone",
+          "harbor",
+          "archive",
+          "beacon",
+          "cargo",
+          "export",
+          "frost",
+          "garden",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 36.480399
+      },
+      "12": {
+        "logits": [
+          10.058465003967285,
+          -11.35808277130127,
+          -11.395358085632324,
+          -11.298918724060059,
+          -11.376766204833984,
+          -11.360922813415527,
+          -11.384462356567383,
+          -11.3346529006958,
+          -11.421213150024414,
+          -11.38614273071289,
+          -11.231120109558105,
+          -11.291454315185547
+        ],
+        "ranking": [
+          "prism",
+          "frost",
+          "garden",
+          "iris",
+          "beacon",
+          "rivet-calibration",
+          "harbor",
+          "drone",
+          "archive",
+          "export",
+          "engine",
+          "cargo",
+          "iris-network",
+          "junction",
+          "keel",
+          "lantern",
+          "lantern-charge",
+          "mirror",
+          "nova",
+          "orbit",
+          "quartz",
+          "quartz-batch",
+          "rivet",
+          "soil"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 86.711482
+      }
+    }
+  },
+  {
+    "id": "eval-prism-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "prism",
+        19.576245686595648
+      ],
+      [
+        "rivet",
+        3.3499023754861983
+      ],
+      [
+        "quartz",
+        2.924751182162571
+      ],
+      [
+        "nova",
+        2.1484607009604293
+      ],
+      [
+        "frost",
+        1.821363754322552
+      ],
+      [
+        "drone",
+        1.7705274908708948
+      ],
+      [
+        "cargo",
+        1.665928407395438
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "mirror",
+        0.15528894052172876
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.8288792228542594,
+      "coverage": 0.8,
+      "confidence": 0.8
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "prism",
+          "rivet",
+          "quartz",
+          "nova",
+          "frost",
+          "drone",
+          "cargo",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "junction",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001883
+      },
+      "4": {
+        "logits": [
+          7.783456325531006,
+          -11.350871086120605,
+          -11.440305709838867,
+          -11.468302726745605
+        ],
+        "ranking": [
+          "prism",
+          "rivet",
+          "quartz",
+          "nova",
+          "frost",
+          "drone",
+          "cargo",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "junction",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 38.213825
+      },
+      "12": {
+        "logits": [
+          7.783456325531006,
+          -11.350871086120605,
+          -11.440305709838867,
+          -11.468302726745605,
+          -11.444717407226562,
+          -11.468291282653809,
+          -11.438386917114258,
+          -11.472097396850586,
+          -11.480454444885254,
+          -11.463541984558105,
+          -11.490352630615234,
+          -11.461370468139648
+        ],
+        "ranking": [
+          "prism",
+          "rivet",
+          "cargo",
+          "quartz",
+          "frost",
+          "lantern",
+          "harbor",
+          "drone",
+          "nova",
+          "beacon",
+          "export",
+          "iris-network",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "junction",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 98.158531
+      }
+    }
+  },
+  {
+    "id": "eval-quartz-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "quartz",
+        16.168441767095317
+      ],
+      [
+        "quartz-batch",
+        5.622181378875657
+      ],
+      [
+        "mirror",
+        2.5260564028174852
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "cargo",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "rivet",
+        0.13914434698213743
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.652274383650411,
+      "coverage": 0.6,
+      "confidence": 0.6
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "quartz",
+          "quartz-batch",
+          "mirror",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001767
+      },
+      "4": {
+        "logits": [
+          9.253325462341309,
+          -0.6516895294189453,
+          -7.4880571365356445,
+          -11.421065330505371
+        ],
+        "ranking": [
+          "quartz",
+          "quartz-batch",
+          "mirror",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 37.656465
+      },
+      "12": {
+        "logits": [
+          9.253325462341309,
+          -0.6516895294189453,
+          -7.4880571365356445,
+          -11.421065330505371,
+          -11.176493644714355,
+          -11.252103805541992,
+          -11.449766159057617,
+          -11.421207427978516,
+          -11.464003562927246,
+          -11.286712646484375,
+          -11.034472465515137,
+          -11.463125228881836
+        ],
+        "ranking": [
+          "quartz",
+          "quartz-batch",
+          "mirror",
+          "lantern-charge",
+          "drone",
+          "beacon",
+          "lantern",
+          "frost",
+          "harbor",
+          "export",
+          "archive",
+          "iris-network",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "soil",
+          "garden",
+          "prism",
+          "junction",
+          "rivet",
+          "engine",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 96.275576
+      }
+    }
+  },
+  {
+    "id": "eval-quartz-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "quartz",
+        14.942412457944455
+      ],
+      [
+        "quartz-batch",
+        3.3182440336247145
+      ],
+      [
+        "cargo",
+        2.4548488096026633
+      ],
+      [
+        "beacon",
+        1.5766288123286714
+      ],
+      [
+        "export",
+        1.5766288123286714
+      ],
+      [
+        "orbit",
+        1.5422510917283352
+      ],
+      [
+        "soil",
+        1.4987762159288807
+      ],
+      [
+        "junction",
+        1.4379731740505912
+      ],
+      [
+        "engine",
+        1.347864751577161
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "mirror",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "rivet",
+        0.13914434698213743
+      ],
+      [
+        "iris",
+        0.0
+      ],
+      [
+        "rivet-calibration",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.777931171223928,
+      "coverage": 0.5454545454545454,
+      "confidence": 0.5454545454545454
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "quartz",
+          "quartz-batch",
+          "cargo",
+          "beacon",
+          "export",
+          "orbit",
+          "soil",
+          "junction",
+          "engine",
+          "frost",
+          "drone",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "keel",
+          "nova",
+          "garden",
+          "prism",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001835
+      },
+      "4": {
+        "logits": [
+          6.443125247955322,
+          -4.9894328117370605,
+          -11.329298973083496,
+          -10.995671272277832
+        ],
+        "ranking": [
+          "quartz",
+          "quartz-batch",
+          "beacon",
+          "cargo",
+          "export",
+          "orbit",
+          "soil",
+          "junction",
+          "engine",
+          "frost",
+          "drone",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "keel",
+          "nova",
+          "garden",
+          "prism",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 39.086051
+      },
+      "12": {
+        "logits": [
+          6.443126201629639,
+          -4.9894328117370605,
+          -11.329298973083496,
+          -10.995671272277832,
+          -10.901998519897461,
+          -8.954572677612305,
+          -10.973638534545898,
+          -9.095609664916992,
+          -10.860000610351562,
+          -10.853055000305176,
+          -10.665283203125,
+          -10.9835786819458
+        ],
+        "ranking": [
+          "quartz",
+          "quartz-batch",
+          "orbit",
+          "junction",
+          "drone",
+          "frost",
+          "engine",
+          "export",
+          "soil",
+          "harbor",
+          "beacon",
+          "cargo",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "keel",
+          "nova",
+          "garden",
+          "prism",
+          "rivet",
+          "iris",
+          "rivet-calibration"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 105.360304
+      }
+    }
+  },
+  {
+    "id": "eval-rivet-1",
+    "split": "eval",
+    "retrieval": [
+      [
+        "rivet",
+        8.914164787157596
+      ],
+      [
+        "rivet-calibration",
+        5.736615418689499
+      ],
+      [
+        "frost",
+        0.21582923719752753
+      ],
+      [
+        "drone",
+        0.21156457862051012
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "mirror",
+        0.15528894052172876
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "nova",
+        0.15306891198557857
+      ],
+      [
+        "cargo",
+        0.15091146435171982
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "prism",
+        0.14881398823692854
+      ],
+      [
+        "quartz",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.35646069422520765,
+      "coverage": 0.4444444444444444,
+      "confidence": 0.35646069422520765
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "rivet",
+          "rivet-calibration",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "quartz",
+          "junction",
+          "engine",
+          "iris"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.001692
+      },
+      "4": {
+        "logits": [
+          8.032523155212402,
+          5.0930986404418945,
+          -11.045774459838867,
+          -11.111373901367188
+        ],
+        "ranking": [
+          "rivet",
+          "rivet-calibration",
+          "frost",
+          "drone",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "quartz",
+          "junction",
+          "engine",
+          "iris"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 43.686579
+      },
+      "12": {
+        "logits": [
+          8.032523155212402,
+          5.0930986404418945,
+          -11.045774459838867,
+          -11.111373901367188,
+          -11.299398422241211,
+          -11.02957820892334,
+          -10.90796947479248,
+          -11.426010131835938,
+          -10.650565147399902,
+          -10.10616683959961,
+          -10.731083869934082,
+          -10.548370361328125
+        ],
+        "ranking": [
+          "rivet",
+          "rivet-calibration",
+          "lantern-charge",
+          "mirror",
+          "lantern",
+          "archive",
+          "harbor",
+          "export",
+          "frost",
+          "drone",
+          "beacon",
+          "iris-network",
+          "orbit",
+          "keel",
+          "nova",
+          "cargo",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "prism",
+          "quartz",
+          "junction",
+          "engine",
+          "iris"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 102.064377
+      }
+    }
+  },
+  {
+    "id": "eval-rivet-2",
+    "split": "eval",
+    "retrieval": [
+      [
+        "rivet",
+        16.918278185212205
+      ],
+      [
+        "prism",
+        3.58269914310251
+      ],
+      [
+        "quartz",
+        2.924751182162571
+      ],
+      [
+        "rivet-calibration",
+        2.441590472026188
+      ],
+      [
+        "nova",
+        2.1484607009604293
+      ],
+      [
+        "frost",
+        1.821363754322552
+      ],
+      [
+        "drone",
+        1.7705274908708948
+      ],
+      [
+        "cargo",
+        1.665928407395438
+      ],
+      [
+        "beacon",
+        0.20949483139545327
+      ],
+      [
+        "export",
+        0.20949483139545327
+      ],
+      [
+        "harbor",
+        0.2054744961299015
+      ],
+      [
+        "iris-network",
+        0.2054744961299015
+      ],
+      [
+        "lantern",
+        0.20352164308444637
+      ],
+      [
+        "lantern-charge",
+        0.1997252205354382
+      ],
+      [
+        "archive",
+        0.15992795734666387
+      ],
+      [
+        "mirror",
+        0.15528894052172876
+      ],
+      [
+        "orbit",
+        0.15528894052172876
+      ],
+      [
+        "keel",
+        0.15306891198557857
+      ],
+      [
+        "quartz-batch",
+        0.15091146435171982
+      ],
+      [
+        "soil",
+        0.15091146435171982
+      ],
+      [
+        "garden",
+        0.14881398823692854
+      ],
+      [
+        "junction",
+        0.14478921875603243
+      ],
+      [
+        "engine",
+        0.0
+      ],
+      [
+        "iris",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.7882350021745093,
+      "coverage": 0.8,
+      "confidence": 0.7882350021745093
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "rivet",
+          "prism",
+          "quartz",
+          "rivet-calibration",
+          "nova",
+          "frost",
+          "drone",
+          "cargo",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "junction",
+          "engine",
+          "iris"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 0.002199
+      },
+      "4": {
+        "logits": [
+          8.027447700500488,
+          -11.266072273254395,
+          -11.40830135345459,
+          0.2866683900356293
+        ],
+        "ranking": [
+          "rivet",
+          "rivet-calibration",
+          "prism",
+          "quartz",
+          "nova",
+          "frost",
+          "drone",
+          "cargo",
+          "beacon",
+          "export",
+          "harbor",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "junction",
+          "engine",
+          "iris"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 39.588616
+      },
+      "12": {
+        "logits": [
+          8.027447700500488,
+          -11.266072273254395,
+          -11.40830135345459,
+          0.2866683900356293,
+          -11.423832893371582,
+          -11.390559196472168,
+          -11.425186157226562,
+          -11.415412902832031,
+          -11.410115242004395,
+          -11.452159881591797,
+          -11.419374465942383,
+          -11.453349113464355
+        ],
+        "ranking": [
+          "rivet",
+          "rivet-calibration",
+          "prism",
+          "frost",
+          "quartz",
+          "beacon",
+          "cargo",
+          "harbor",
+          "nova",
+          "drone",
+          "export",
+          "iris-network",
+          "lantern",
+          "lantern-charge",
+          "archive",
+          "mirror",
+          "orbit",
+          "keel",
+          "quartz-batch",
+          "soil",
+          "garden",
+          "junction",
+          "engine",
+          "iris"
+        ],
+        "quality": {
+          "ndcg3": 1.0,
+          "mrr": 1.0
+        },
+        "inference_ms": 98.506783
+      }
+    }
+  },
+  {
+    "id": "eval-unknown-weather",
+    "split": "eval",
+    "retrieval": [
+      [
+        "keel",
+        3.022156353728784
+      ],
+      [
+        "nova",
+        2.1417388288858166
+      ],
+      [
+        "rivet",
+        1.9724665879278263
+      ],
+      [
+        "prism",
+        1.9399250073753953
+      ],
+      [
+        "iris",
+        0.17521331205130922
+      ],
+      [
+        "junction",
+        0.17521331205130922
+      ],
+      [
+        "lantern-charge",
+        0.174193174705206
+      ],
+      [
+        "garden",
+        0.1644040039785397
+      ],
+      [
+        "iris-network",
+        0.1644040039785397
+      ],
+      [
+        "lantern",
+        0.1632082177085675
+      ],
+      [
+        "archive",
+        0.15077207289413555
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "beacon",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "quartz-batch",
+        0.14492919014102798
+      ],
+      [
+        "harbor",
+        0.14353854978429298
+      ],
+      [
+        "frost",
+        0.11172105297677266
+      ],
+      [
+        "drone",
+        0.10848036977755385
+      ],
+      [
+        "orbit",
+        0.10848036977755385
+      ],
+      [
+        "export",
+        0.1069295219469925
+      ],
+      [
+        "cargo",
+        0.10542239132770698
+      ],
+      [
+        "soil",
+        0.10542239132770698
+      ],
+      [
+        "quartz",
+        0.10395715507992469
+      ],
+      [
+        "mirror",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.2913209714503005,
+      "coverage": 0.2857142857142857,
+      "confidence": 0.2857142857142857
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "keel",
+          "nova",
+          "rivet",
+          "prism",
+          "iris",
+          "junction",
+          "lantern-charge",
+          "garden",
+          "iris-network",
+          "lantern",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "mirror"
+        ],
+        "quality": {
+          "ndcg3": 0.0,
+          "mrr": 0.0
+        },
+        "inference_ms": 0.001638
+      },
+      "4": {
+        "logits": [
+          -11.279678344726562,
+          -11.37423038482666,
+          -11.425868034362793,
+          -10.790202140808105
+        ],
+        "ranking": [
+          "prism",
+          "keel",
+          "nova",
+          "rivet",
+          "iris",
+          "junction",
+          "lantern-charge",
+          "garden",
+          "iris-network",
+          "lantern",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "mirror"
+        ],
+        "quality": {
+          "ndcg3": 0.0,
+          "mrr": 0.0
+        },
+        "inference_ms": 37.23205
+      },
+      "12": {
+        "logits": [
+          -11.279678344726562,
+          -11.37423038482666,
+          -11.425868034362793,
+          -10.790202140808105,
+          -11.403650283813477,
+          -11.357444763183594,
+          -11.363469123840332,
+          -11.213229179382324,
+          -11.39967155456543,
+          -11.318207740783691,
+          -11.420628547668457,
+          -11.412744522094727
+        ],
+        "ranking": [
+          "prism",
+          "garden",
+          "keel",
+          "lantern",
+          "junction",
+          "lantern-charge",
+          "nova",
+          "iris-network",
+          "iris",
+          "rivet-calibration",
+          "archive",
+          "rivet",
+          "beacon",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "frost",
+          "drone",
+          "orbit",
+          "export",
+          "cargo",
+          "soil",
+          "quartz",
+          "mirror"
+        ],
+        "quality": {
+          "ndcg3": 0.0,
+          "mrr": 0.0
+        },
+        "inference_ms": 99.760738
+      }
+    }
+  },
+  {
+    "id": "eval-unknown-captain",
+    "split": "eval",
+    "retrieval": [
+      [
+        "keel",
+        3.022156353728784
+      ],
+      [
+        "frost",
+        1.3531240397887951
+      ],
+      [
+        "garden",
+        1.3462487647785242
+      ],
+      [
+        "iris-network",
+        1.3462487647785242
+      ],
+      [
+        "iris",
+        1.334804795744307
+      ],
+      [
+        "cargo",
+        1.2987171843471486
+      ],
+      [
+        "lantern",
+        1.0074205490650583
+      ],
+      [
+        "orbit",
+        1.0016686934990489
+      ],
+      [
+        "lantern-charge",
+        0.9958778806897775
+      ],
+      [
+        "soil",
+        0.9734324210297771
+      ],
+      [
+        "mirror",
+        0.893188323721495
+      ],
+      [
+        "junction",
+        0.17521331205130922
+      ],
+      [
+        "rivet",
+        0.15859410494719833
+      ],
+      [
+        "archive",
+        0.15077207289413555
+      ],
+      [
+        "rivet-calibration",
+        0.15077207289413555
+      ],
+      [
+        "beacon",
+        0.14634703991096604
+      ],
+      [
+        "nova",
+        0.14634703991096604
+      ],
+      [
+        "engine",
+        0.14492919014102798
+      ],
+      [
+        "quartz-batch",
+        0.14492919014102798
+      ],
+      [
+        "harbor",
+        0.14353854978429298
+      ],
+      [
+        "drone",
+        0.10848036977755385
+      ],
+      [
+        "export",
+        0.1069295219469925
+      ],
+      [
+        "quartz",
+        0.10395715507992469
+      ],
+      [
+        "prism",
+        0.0
+      ]
+    ],
+    "signals": {
+      "gap": 0.5522653756417039,
+      "coverage": 0.2222222222222222,
+      "confidence": 0.2222222222222222
+    },
+    "alternatives": {
+      "0": {
+        "logits": [],
+        "ranking": [
+          "keel",
+          "frost",
+          "garden",
+          "iris-network",
+          "iris",
+          "cargo",
+          "lantern",
+          "orbit",
+          "lantern-charge",
+          "soil",
+          "mirror",
+          "junction",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "drone",
+          "export",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 0.0,
+          "mrr": 0.0
+        },
+        "inference_ms": 0.001548
+      },
+      "4": {
+        "logits": [
+          -11.368772506713867,
+          -11.419684410095215,
+          -11.30733871459961,
+          -11.103347778320312
+        ],
+        "ranking": [
+          "iris-network",
+          "garden",
+          "keel",
+          "frost",
+          "iris",
+          "cargo",
+          "lantern",
+          "orbit",
+          "lantern-charge",
+          "soil",
+          "mirror",
+          "junction",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "drone",
+          "export",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 0.0,
+          "mrr": 0.0
+        },
+        "inference_ms": 35.892092
+      },
+      "12": {
+        "logits": [
+          -11.368772506713867,
+          -11.419684410095215,
+          -11.30733871459961,
+          -11.103347778320312,
+          -11.180445671081543,
+          -11.462408065795898,
+          -11.390913009643555,
+          -11.450128555297852,
+          -11.37920093536377,
+          -11.34627914428711,
+          -11.41447925567627,
+          -11.448532104492188
+        ],
+        "ranking": [
+          "iris-network",
+          "iris",
+          "garden",
+          "soil",
+          "keel",
+          "lantern-charge",
+          "lantern",
+          "mirror",
+          "frost",
+          "junction",
+          "orbit",
+          "cargo",
+          "rivet",
+          "archive",
+          "rivet-calibration",
+          "beacon",
+          "nova",
+          "engine",
+          "quartz-batch",
+          "harbor",
+          "drone",
+          "export",
+          "quartz",
+          "prism"
+        ],
+        "quality": {
+          "ndcg3": 0.0,
+          "mrr": 0.0
+        },
+        "inference_ms": 97.492659
+      }
+    }
+  }
+]

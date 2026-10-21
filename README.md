@@ -94,6 +94,11 @@ versions, model loading, warmup and source commit. Later commits add evidence an
 
 ## Results
 
+On the held-out fixture, every learned policy skips reranking. Never-rerank achieves
+0.8947 nDCG@3 at 0.108 ms mean latency; always-rerank-12 achieves 0.9089 at
+101.321 ms. The router misses the benefit on `eval-iris-1` and adds overhead to
+the never-rerank baseline. This experiment does not demonstrate a router advantage.
+
 Measurements and interpretation are in [results/report.md](results/report.md).
 Machine-readable [evaluation summary](results/eval/summary.json),
 [routing errors](results/eval/errors.json), and [timed traces](results/eval/trace.jsonl)

@@ -9,7 +9,7 @@ describes the query-document scoring interface. This project uses Transformers d
 CPU float32 inference, eval mode, no remote code, safetensors only, and a 256-token
 combined input limit. Raw logits are ranking scores, not calibrated probabilities.
 
-`requirements-local.lock` records the actual macOS ARM environment, including development
+`requirements-local.lock` records the actual macOS x86_64 environment, including development
 tools. It is not a universal cross-platform lock. Core replay uses only Python's standard
 library. Model requirements pin top-level inference dependencies. PyTorch 2.2.2 availability
 depends on Python and platform. Python 3.11 is the tested inference version.

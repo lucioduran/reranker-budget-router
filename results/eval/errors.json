@@ -1,0 +1,50 @@
+[
+  {
+    "id": "eval-iris-1",
+    "policy": "router-b4-p0",
+    "depth": 0,
+    "oracle_depth": 4,
+    "regret": 0.36907024642854247,
+    "type": "quality_loss"
+  },
+  {
+    "id": "eval-iris-1",
+    "policy": "router-b4-p0.01",
+    "depth": 0,
+    "oracle_depth": 4,
+    "regret": 0.36907024642854247,
+    "type": "quality_loss"
+  },
+  {
+    "id": "eval-iris-1",
+    "policy": "router-b4-p0.04",
+    "depth": 0,
+    "oracle_depth": 4,
+    "regret": 0.36907024642854247,
+    "type": "quality_loss"
+  },
+  {
+    "id": "eval-iris-1",
+    "policy": "router-b12-p0",
+    "depth": 0,
+    "oracle_depth": 4,
+    "regret": 0.36907024642854247,
+    "type": "quality_loss"
+  },
+  {
+    "id": "eval-iris-1",
+    "policy": "router-b12-p0.01",
+    "depth": 0,
+    "oracle_depth": 4,
+    "regret": 0.36907024642854247,
+    "type": "quality_loss"
+  },
+  {
+    "id": "eval-iris-1",
+    "policy": "router-b12-p0.04",
+    "depth": 0,
+    "oracle_depth": 4,
+    "regret": 0.36907024642854247,
+    "type": "quality_loss"
+  }
+]

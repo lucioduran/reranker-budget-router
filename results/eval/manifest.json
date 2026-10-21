@@ -1,0 +1,8 @@
+{
+  "counterfactual.json": "3535a27f32c1b460f16c3e7721c2cf6d9baebcafd710a6ddfaffd5574300de38",
+  "errors.json": "41502831827d20b8e1342cb11b5fcd13b59ecd47c76c865875241b4ece784cb1",
+  "metadata.json": "f9cfe5a7199b0948e22aec8ec24caac9bc60ffdd2ca5129858c769283edd583c",
+  "policies.json": "7cd2a76aac3fb7dea121898e0725839da59f4cf985a42dfabea54b323d8cdd54",
+  "summary.json": "fb8584bb133662248c4d67c988718b12ea562aaa5d0693c1aa7a3a1ff29d1119",
+  "trace.jsonl": "4192c0c9a3196c1d6bd285fbe31ae83b85f20a78fe12169ce3113892cc87d634"
+}
