@@ -50,6 +50,10 @@ class ExperimentTests(unittest.TestCase):
 
     def test_full_round_trip(self):
         self.assertEqual(verify(self.root, self.output / "dev")["queries"], 12)
+        self.assertEqual(
+            set(read(self.output / "dev/metadata.json")["input_hashes"]),
+            {"data/corpus.json", "data/queries.json", "config/experiment.json"},
+        )
         self.assertEqual(verify(self.root, self.output / "eval")["samples"], 624)
 
     def test_refuse_existing_output_and_missing_policy(self):

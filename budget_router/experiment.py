@@ -191,7 +191,7 @@ def run(root: Path, output: Path, split: str, cache: Path, policy_path: Path | N
         bundle = read(policy_path)
     output.mkdir(parents=True, exist_ok=False)
     hashes = {
-        str(p): digest(root / p)
+        p.as_posix(): digest(root / p)
         for p in map(Path, ["data/corpus.json", "data/queries.json", "config/experiment.json"])
     }
     start = time.perf_counter()
