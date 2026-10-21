@@ -1,0 +1,51 @@
+{
+  "split": "dev",
+  "input_hashes": {
+    "data/corpus.json": "ecf0e3d23dbee38f61aad545e67d7ad3e81195e39659a4619b7035babb5938e6",
+    "data/queries.json": "615ed43bfde36855390cc746b051199c4b1fe2ff7fd2d366c8d33b55a3c7f729",
+    "config/experiment.json": "7d6a32ec6fdf642473ed9044068f0cc4b6d974acd94ca0faf2c23117428ce58f"
+  },
+  "config": {
+    "model_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "depths": [
+      0,
+      4,
+      12
+    ],
+    "budgets": [
+      4,
+      12
+    ],
+    "penalties": [
+      0.0,
+      0.01,
+      0.04
+    ],
+    "thresholds": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      1.01
+    ],
+    "threads": 2,
+    "max_length": 256,
+    "repetitions": 3
+  },
+  "python": "3.11.13",
+  "platform": "macOS-26.7.1-x86_64-i386-64bit",
+  "processor": "i386",
+  "cpu_count": 16,
+  "load_seconds": 1.7048179819976212,
+  "warmup_seconds": 0.7773772420041496,
+  "versions": {
+    "torch": "2.2.2",
+    "transformers": "4.46.3",
+    "numpy": "1.26.4",
+    "tokenizers": "0.20.3",
+    "huggingface-hub": "0.26.2"
+  },
+  "source_commit": "376410595d26a2f4371d099e24b38a6ab03a3058",
+  "hardware": "Intel(R) Xeon(R) W-3223 CPU @ 3.50GHz\n51539607552"
+}

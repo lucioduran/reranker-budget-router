@@ -1,0 +1,87 @@
+{
+  "policies": {
+    "always-12": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 12,
+      "mean_ms": 96.76644133333333,
+      "p95_ms": 107.372654,
+      "mean_router_ms": 0.006647472222222222,
+      "samples": 36
+    },
+    "never": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 0,
+      "mean_ms": 0.09528033333333333,
+      "p95_ms": 0.114024,
+      "mean_router_ms": 0.005559638888888889,
+      "samples": 36
+    },
+    "router-b12-p0": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 0,
+      "mean_ms": 0.10265833333333334,
+      "p95_ms": 0.120904,
+      "mean_router_ms": 0.00924163888888889,
+      "samples": 36
+    },
+    "router-b12-p0.01": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 0,
+      "mean_ms": 0.09593719444444444,
+      "p95_ms": 0.110596,
+      "mean_router_ms": 0.008320972222222223,
+      "samples": 36
+    },
+    "router-b12-p0.04": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 0,
+      "mean_ms": 0.10152386111111111,
+      "p95_ms": 0.163539,
+      "mean_router_ms": 0.009289416666666666,
+      "samples": 36
+    },
+    "router-b4-p0": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 0,
+      "mean_ms": 0.14906641666666667,
+      "p95_ms": 0.239268,
+      "mean_router_ms": 0.01578038888888889,
+      "samples": 36
+    },
+    "router-b4-p0.01": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 0,
+      "mean_ms": 0.11206025,
+      "p95_ms": 0.164424,
+      "mean_router_ms": 0.01126575,
+      "samples": 36
+    },
+    "router-b4-p0.04": {
+      "ndcg3": 1.0,
+      "answerable_ndcg3": 1.0,
+      "mrr": 1.0,
+      "mean_pairs": 0,
+      "mean_ms": 0.10138483333333334,
+      "p95_ms": 0.124901,
+      "mean_router_ms": 0.009088277777777778,
+      "samples": 36
+    }
+  },
+  "frontier": [
+    "never"
+  ]
+}
