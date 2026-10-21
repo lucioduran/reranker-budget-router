@@ -95,7 +95,7 @@ class BM25:
         self.idf = {t: math.log(1 + (n - count + 0.5) / (count + 0.5)) for t, count in df.items()}
 
     def retrieve(self, question: str) -> list[tuple[str, float]]:
-        terms = set(tokens(question))
+        terms = sorted(set(tokens(question)))
         scores = []
         for doc, c in self.counts.items():
             norm = 1.2 * (0.25 + 0.75 * self.lengths[doc] / self.average)

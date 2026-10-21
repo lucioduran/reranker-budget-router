@@ -162,3 +162,18 @@ class ExperimentTests(unittest.TestCase):
         ):
             main()
         self.assertEqual(exc.exception.code, 2)
+
+    def test_replay_in_fresh_process(self):
+        result = subprocess.run(
+            [
+                sys.executable,
+                "-m",
+                "budget_router",
+                "verify",
+                "--output",
+                str(self.output / "eval"),
+            ],
+            capture_output=True,
+            text=True,
+        )
+        self.assertEqual(result.returncode, 0, result.stderr)
