@@ -1,0 +1,28 @@
+{
+  "model_id": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "depths": [
+    0,
+    4,
+    12
+  ],
+  "budgets": [
+    4,
+    12
+  ],
+  "penalties": [
+    0.0,
+    0.01,
+    0.04
+  ],
+  "thresholds": [
+    0.0,
+    0.1,
+    0.25,
+    0.5,
+    1.01
+  ],
+  "threads": 2,
+  "max_length": 256,
+  "repetitions": 3
+}

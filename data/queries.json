@@ -1,0 +1,501 @@
+{
+  "schema_version": 1,
+  "queries": [
+    {
+      "id": "dev-archive-1",
+      "split": "dev",
+      "group": "archive",
+      "question": "How many days can a deleted notebook be recovered?",
+      "answers": [
+        "21 days",
+        "21"
+      ],
+      "relevance": {
+        "archive": 1
+      }
+    },
+    {
+      "id": "dev-archive-2",
+      "split": "dev",
+      "group": "archive",
+      "question": "Where do I restore a deleted notebook?",
+      "answers": [
+        "Recovery drawer"
+      ],
+      "relevance": {
+        "archive": 1
+      }
+    },
+    {
+      "id": "dev-beacon-1",
+      "split": "dev",
+      "group": "beacon",
+      "question": "How often does a beacon send a heartbeat?",
+      "answers": [
+        "45 seconds",
+        "45"
+      ],
+      "relevance": {
+        "beacon": 1
+      }
+    },
+    {
+      "id": "dev-beacon-2",
+      "split": "dev",
+      "group": "beacon",
+      "question": "How many missed heartbeats make a beacon silent?",
+      "answers": [
+        "four",
+        "4"
+      ],
+      "relevance": {
+        "beacon": 1
+      }
+    },
+    {
+      "id": "dev-cargo-1",
+      "split": "dev",
+      "group": "cargo",
+      "question": "Where does incoming cargo wait for inspection?",
+      "answers": [
+        "amber bay",
+        "the amber bay"
+      ],
+      "relevance": {
+        "cargo": 1
+      }
+    },
+    {
+      "id": "dev-cargo-2",
+      "split": "dev",
+      "group": "cargo",
+      "question": "Which mark means a cargo crate passed inspection?",
+      "answers": [
+        "blue triangle",
+        "a blue triangle"
+      ],
+      "relevance": {
+        "cargo": 1
+      }
+    },
+    {
+      "id": "dev-drone-1",
+      "split": "dev",
+      "group": "drone",
+      "question": "How long does a full drone charge take?",
+      "answers": [
+        "80 minutes",
+        "80"
+      ],
+      "relevance": {
+        "drone": 1
+      }
+    },
+    {
+      "id": "dev-drone-2",
+      "split": "dev",
+      "group": "drone",
+      "question": "Which dock charges survey drones?",
+      "answers": [
+        "west dock",
+        "the west dock"
+      ],
+      "relevance": {
+        "drone": 1
+      }
+    },
+    {
+      "id": "dev-export-1",
+      "split": "dev",
+      "group": "export",
+      "question": "When does a report export bundle expire?",
+      "answers": [
+        "72 hours",
+        "72"
+      ],
+      "relevance": {
+        "export": 1
+      }
+    },
+    {
+      "id": "dev-export-2",
+      "split": "dev",
+      "group": "export",
+      "question": "What checksum algorithm does the export manifest use?",
+      "answers": [
+        "SHA-256",
+        "SHA256"
+      ],
+      "relevance": {
+        "export": 1
+      }
+    },
+    {
+      "id": "dev-frost-1",
+      "split": "dev",
+      "group": "frost",
+      "question": "What reference is used to calibrate the frost sensor?",
+      "answers": [
+        "silver reference plate",
+        "a silver reference plate"
+      ],
+      "relevance": {
+        "frost": 1
+      }
+    },
+    {
+      "id": "dev-frost-2",
+      "split": "dev",
+      "group": "frost",
+      "question": "What does a blinking violet frost sensor light mean?",
+      "answers": [
+        "calibration is overdue",
+        "overdue calibration"
+      ],
+      "relevance": {
+        "frost": 1
+      }
+    },
+    {
+      "id": "eval-garden-1",
+      "split": "eval",
+      "group": "garden",
+      "question": "What humidity percentage should the seed garden target?",
+      "answers": [
+        "64 percent",
+        "64"
+      ],
+      "relevance": {
+        "garden": 1
+      }
+    },
+    {
+      "id": "eval-garden-2",
+      "split": "eval",
+      "group": "garden",
+      "question": "How long should the roof vent stay open when garden humidity exceeds the limit?",
+      "answers": [
+        "12 minutes",
+        "12"
+      ],
+      "relevance": {
+        "garden": 1
+      }
+    },
+    {
+      "id": "eval-harbor-1",
+      "split": "eval",
+      "group": "harbor",
+      "question": "How long is a harbor visitor pass valid?",
+      "answers": [
+        "nine hours",
+        "9 hours",
+        "nine",
+        "9"
+      ],
+      "relevance": {
+        "harbor": 1
+      }
+    },
+    {
+      "id": "eval-harbor-2",
+      "split": "eval",
+      "group": "harbor",
+      "question": "Where should a visitor collect a harbor pass?",
+      "answers": [
+        "east kiosk",
+        "the east kiosk"
+      ],
+      "relevance": {
+        "harbor": 1
+      }
+    },
+    {
+      "id": "eval-iris-1",
+      "split": "eval",
+      "group": "iris",
+      "question": "What code opens the Iris door when it cannot reach the network?",
+      "answers": [
+        "5826"
+      ],
+      "relevance": {
+        "iris": 1
+      }
+    },
+    {
+      "id": "eval-iris-2",
+      "split": "eval",
+      "group": "iris",
+      "question": "Where is the mechanical override key for the Iris door stored?",
+      "answers": [
+        "locker C7",
+        "C7"
+      ],
+      "relevance": {
+        "iris": 1
+      }
+    },
+    {
+      "id": "eval-junction-1",
+      "split": "eval",
+      "group": "junction",
+      "question": "What is the waiting time between junction delivery retries?",
+      "answers": [
+        "18 seconds",
+        "18"
+      ],
+      "relevance": {
+        "junction": 1
+      }
+    },
+    {
+      "id": "eval-junction-2",
+      "split": "eval",
+      "group": "junction",
+      "question": "Which queue receives a junction message after all retries fail?",
+      "answers": [
+        "copper dead-letter queue",
+        "the copper dead-letter queue"
+      ],
+      "relevance": {
+        "junction": 1
+      }
+    },
+    {
+      "id": "eval-keel-1",
+      "split": "eval",
+      "group": "keel",
+      "question": "How frequently are Keel configuration backups taken?",
+      "answers": [
+        "every six hours",
+        "six hours",
+        "6 hours"
+      ],
+      "relevance": {
+        "keel": 1
+      }
+    },
+    {
+      "id": "eval-keel-2",
+      "split": "eval",
+      "group": "keel",
+      "question": "How many Keel backup snapshots are retained?",
+      "answers": [
+        "28",
+        "28 snapshots"
+      ],
+      "relevance": {
+        "keel": 1
+      }
+    },
+    {
+      "id": "eval-lantern-1",
+      "split": "eval",
+      "group": "lantern",
+      "question": "Which controller mode is required during a lantern outage?",
+      "answers": [
+        "manual",
+        "manual mode"
+      ],
+      "relevance": {
+        "lantern": 1
+      }
+    },
+    {
+      "id": "eval-lantern-2",
+      "split": "eval",
+      "group": "lantern",
+      "question": "How long can the reserve lamp illuminate the corridor?",
+      "answers": [
+        "150 minutes",
+        "150"
+      ],
+      "relevance": {
+        "lantern": 1
+      }
+    },
+    {
+      "id": "eval-mirror-1",
+      "split": "eval",
+      "group": "mirror",
+      "question": "How far behind must a Mirror replica be to become stale?",
+      "answers": [
+        "more than 40 minutes",
+        "40 minutes",
+        "40"
+      ],
+      "relevance": {
+        "mirror": 1
+      }
+    },
+    {
+      "id": "eval-mirror-2",
+      "split": "eval",
+      "group": "mirror",
+      "question": "Can a stale Mirror replica serve verification requests?",
+      "answers": [
+        "no"
+      ],
+      "relevance": {
+        "mirror": 1
+      }
+    },
+    {
+      "id": "eval-nova-1",
+      "split": "eval",
+      "group": "nova",
+      "question": "Who receives Nova critical alerts?",
+      "answers": [
+        "on-call navigator",
+        "the on-call navigator"
+      ],
+      "relevance": {
+        "nova": 1
+      }
+    },
+    {
+      "id": "eval-nova-2",
+      "split": "eval",
+      "group": "nova",
+      "question": "How soon must a Nova critical alert be acknowledged?",
+      "answers": [
+        "seven minutes",
+        "7 minutes",
+        "seven",
+        "7"
+      ],
+      "relevance": {
+        "nova": 1
+      }
+    },
+    {
+      "id": "eval-orbit-1",
+      "split": "eval",
+      "group": "orbit",
+      "question": "How long can an Orbit session remain idle before expiring?",
+      "answers": [
+        "25 minutes",
+        "25"
+      ],
+      "relevance": {
+        "orbit": 1
+      }
+    },
+    {
+      "id": "eval-orbit-2",
+      "split": "eval",
+      "group": "orbit",
+      "question": "What happens to existing Orbit sessions when a password is reset?",
+      "answers": [
+        "every existing session is revoked",
+        "all sessions are revoked",
+        "revoked"
+      ],
+      "relevance": {
+        "orbit": 1
+      }
+    },
+    {
+      "id": "eval-prism-1",
+      "split": "eval",
+      "group": "prism",
+      "question": "At what temperature are Prism mineral samples stored?",
+      "answers": [
+        "8 degrees Celsius",
+        "8 Celsius",
+        "8"
+      ],
+      "relevance": {
+        "prism": 1
+      }
+    },
+    {
+      "id": "eval-prism-2",
+      "split": "eval",
+      "group": "prism",
+      "question": "Where should a Prism sample with a broken seal be moved?",
+      "answers": [
+        "quarantine shelf Q4",
+        "shelf Q4",
+        "Q4"
+      ],
+      "relevance": {
+        "prism": 1
+      }
+    },
+    {
+      "id": "eval-quartz-1",
+      "split": "eval",
+      "group": "quartz",
+      "question": "How many requests per minute may a Quartz client send?",
+      "answers": [
+        "90",
+        "90 requests"
+      ],
+      "relevance": {
+        "quartz": 1
+      }
+    },
+    {
+      "id": "eval-quartz-2",
+      "split": "eval",
+      "group": "quartz",
+      "question": "How long should a Quartz client wait after a rate-limit response?",
+      "answers": [
+        "20 seconds",
+        "20"
+      ],
+      "relevance": {
+        "quartz": 1
+      }
+    },
+    {
+      "id": "eval-rivet-1",
+      "split": "eval",
+      "group": "rivet",
+      "question": "How long may a borrower keep a Rivet torque tool?",
+      "answers": [
+        "three hours",
+        "3 hours",
+        "three",
+        "3"
+      ],
+      "relevance": {
+        "rivet": 1
+      }
+    },
+    {
+      "id": "eval-rivet-2",
+      "split": "eval",
+      "group": "rivet",
+      "question": "Where should a torque tool with a damaged grip be returned?",
+      "answers": [
+        "repair desk",
+        "the repair desk"
+      ],
+      "relevance": {
+        "rivet": 1
+      }
+    },
+    {
+      "id": "eval-unknown-weather",
+      "split": "eval",
+      "group": "unknown-weather",
+      "question": "What will the station temperature be tomorrow?",
+      "answers": [
+        "unknown"
+      ],
+      "relevance": {}
+    },
+    {
+      "id": "eval-unknown-captain",
+      "split": "eval",
+      "group": "unknown-captain",
+      "question": "What is the station captain's personal phone number?",
+      "answers": [
+        "unknown"
+      ],
+      "relevance": {}
+    }
+  ]
+}

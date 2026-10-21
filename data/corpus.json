@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "license": "MIT",
+  "documents": [
+    {
+      "id": "archive",
+      "title": "Archive recovery",
+      "text": "The archive service keeps deleted notebooks for 21 days. Restore a notebook from the Recovery drawer. Restoring does not restore former sharing permissions."
+    },
+    {
+      "id": "beacon",
+      "title": "Beacon heartbeat",
+      "text": "A beacon reports its heartbeat every 45 seconds. After four consecutive missed heartbeats, the console labels it silent. A silent label does not disable the beacon."
+    },
+    {
+      "id": "cargo",
+      "title": "Cargo inspection",
+      "text": "Incoming cargo must wait in the amber bay until inspection is complete. Inspectors stamp approved crates with a blue triangle. An orange circle means inspection is pending."
+    },
+    {
+      "id": "drone",
+      "title": "Drone charging",
+      "text": "Survey drones charge at the west dock. A full charging cycle takes 80 minutes. Drones cannot start a survey with less than 35 percent battery."
+    },
+    {
+      "id": "export",
+      "title": "Export bundles",
+      "text": "A report export bundle includes CSV tables and a JSON manifest. Bundles expire after 72 hours. The manifest stores SHA-256 checksums for every included table."
+    },
+    {
+      "id": "frost",
+      "title": "Frost sensor",
+      "text": "The frost sensor is calibrated with a silver reference plate. Recalibrate it every 30 days. A blinking violet light means calibration is overdue."
+    },
+    {
+      "id": "garden",
+      "title": "Garden humidity",
+      "text": "The seed garden humidity target is 64 percent. If humidity exceeds 70 percent, open the roof vent for 12 minutes. The soil moisture reading is a separate measurement."
+    },
+    {
+      "id": "harbor",
+      "title": "Harbor visitor passes",
+      "text": "Harbor visitor passes remain valid for nine hours. Visitors collect a pass at the east kiosk. A visitor pass does not authorize access to the engine deck."
+    },
+    {
+      "id": "iris",
+      "title": "Iris emergency access",
+      "text": "When the Iris door loses network connectivity, enter the local access code 5826. The mechanical override key is stored in locker C7. The local code is fictional training data."
+    },
+    {
+      "id": "junction",
+      "title": "Junction message queue",
+      "text": "The junction queue retries a failed delivery up to five times. Each retry waits 18 seconds. After the fifth failed retry, the message enters the copper dead-letter queue."
+    },
+    {
+      "id": "keel",
+      "title": "Keel backup policy",
+      "text": "Keel configuration backups run every six hours. The station keeps 28 backup snapshots. Restoring a snapshot requires the maintenance role and restarts the routing service."
+    },
+    {
+      "id": "lantern",
+      "title": "Lantern outage procedure",
+      "text": "During a lantern outage, switch the corridor controller to manual mode. The reserve lamp lasts 150 minutes. A steady green indicator confirms that the reserve lamp is active."
+    },
+    {
+      "id": "mirror",
+      "title": "Mirror synchronization",
+      "text": "Mirror replicas synchronize every 14 minutes. A replica more than 40 minutes behind is marked stale. Stale replicas remain readable but cannot serve verification requests."
+    },
+    {
+      "id": "nova",
+      "title": "Nova alert routing",
+      "text": "Nova critical alerts go to the on-call navigator. Warning alerts go to the observation team. A critical alert must be acknowledged within seven minutes."
+    },
+    {
+      "id": "orbit",
+      "title": "Orbit session security",
+      "text": "Orbit sessions expire after 25 minutes of inactivity. The maximum active session duration is ten hours. Resetting a password immediately revokes every existing session."
+    },
+    {
+      "id": "prism",
+      "title": "Prism sample storage",
+      "text": "Prism mineral samples are stored at 8 degrees Celsius. Each sample requires a white tamper seal. Samples with broken seals must be moved to quarantine shelf Q4."
+    },
+    {
+      "id": "quartz",
+      "title": "Quartz service limits",
+      "text": "The Quartz lookup service accepts 90 requests per minute per client. Requests above that limit receive status 429. A client should wait 20 seconds before trying again."
+    },
+    {
+      "id": "rivet",
+      "title": "Rivet tool checkout",
+      "text": "Rivet torque tools must be returned within three hours. Borrowers leave their badge in the red tray. Tools with a damaged grip go to the repair desk instead of the tool rack."
+    },
+    {
+      "id": "soil",
+      "title": "Garden soil moisture",
+      "text": "The seed garden soil moisture target is 42 percent. A dry soil warning triggers after ten minutes below 35 percent. Soil sensors do not measure humidity."
+    },
+    {
+      "id": "engine",
+      "title": "Engine deck passes",
+      "text": "Engine deck contractor passes expire after four hours. Contractors collect them at the north security desk. Harbor visitor passes are not accepted on the engine deck."
+    },
+    {
+      "id": "iris-network",
+      "title": "Iris network enrollment",
+      "text": "The Iris network enrollment code is 7319. This code enrolls a controller in the network and cannot open a door. Enrollment is performed from the network console."
+    },
+    {
+      "id": "lantern-charge",
+      "title": "Reserve lamp charging",
+      "text": "The reserve lamp needs 200 minutes to recharge fully. Charging uses the wall connector in the corridor. A full charge lasts a shorter time when the lamp is in use."
+    },
+    {
+      "id": "quartz-batch",
+      "title": "Quartz bulk service",
+      "text": "The Quartz bulk service accepts 12 batches per hour. Batch jobs return status 202 when queued. This service has a separate quota from the lookup service."
+    },
+    {
+      "id": "rivet-calibration",
+      "title": "Rivet calibration",
+      "text": "Rivet torque tools are calibrated every 60 days. Calibration happens at the instrument bench. The repair desk handles physical damage, not routine calibration."
+    }
+  ]
+}
